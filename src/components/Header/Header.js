@@ -15,6 +15,10 @@ export default class Header extends Component {
       path: "/hook",
       name: "HOOK",
     },
+    {
+      path: "/tai-xiu",
+      name: "Tài Xỉu",
+    },
   ];
   render() {
     return (

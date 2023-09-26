@@ -13,7 +13,6 @@ class List extends Component {
       method: "GET",
     })
       .then((res) => {
-        console.log(res);
         this.props.handleSetUsers(res.data);
       })
       .catch((err) => {

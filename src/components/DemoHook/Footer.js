@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Footer({ number, setNumber }) {
-  console.log("🚀 ~ file: Footer.js:4 ~ Footer ~ props:", number);
+  // console.log("🚀 ~ file: Footer.js:4 ~ Footer ~ props:", number);
   let handleRandomNumber = () => {
     setNumber(Math.floor(Math.random() * 1000));
   };
